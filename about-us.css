@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,rgba(249, 157, 218, 1), rgba(121, 184, 227, 1));
+    /*background-image: url("bgr.jpg");
+    background-size: cover;
+    
+    background-position: center;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    max-width: 440px;
+    height: 500px;
+    color:#ffffefd5;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid #ffffefd5;
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px) ;
+    
+    
+}
+
+.card .me{
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
+
+.card h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-shadow: 1px 1px rgb(114, 156, 182);
+}
+
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+    max-width: 330px;
+    text-shadow: 1px 1px rgb(114, 156, 182);
+}
+
+.card .link img{
+   width: 40px;
+   border-radius: 50%;
+   margin: 10px 5px; 
+   transition: background 0.5s;
+}
+
+.card .link img:hover{
+    background: #f87de2;
+}
+
+.btn{
+    text-decoration: none;
+    width: 130px;
+    font-size: 18px;
+    
+    background: #ffffefd5;
+    color: #f87de2;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px 0 10px;
+    
+
+}
+
+
+
+.footer{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+.footer .btn1{
+    text-decoration: none;
+    width: 150px;
+    font-size: 18px;
+    font-size: 500;
+    background: #ffffefd5;
+    color: #f87de2;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 10px 5px 10px;
+    align-items: end;
+    border: none;
+
+}
+
+
+
+.footer .btn1 a{
+    color: #f87de2;
+    font-style: none;
+    text-decoration: none;
+}
+

@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.background{
+    height: 100vh;
+    width: 100%;
+    background-image: url("bg.png");
+    background-size: cover;
+    position: absolute;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    height: 200px;
+    width: 88%;
+    margin: 20px 20px;
+    padding: 20px 0px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin:  0 20px;
+    padding: 0 20px;
+    cursor: pointer;
+
+}
+
+.navbar ul li{
+    display: inline;
+    margin: 20px 20px;
+    padding: 30px 20px;
+    font-style: none;
+    
+
+}
+
+.navbar ul li a{
+    position: relative;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.navbar ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #FFFFFF ;
+    height: 1px ;
+    width: 0 ;
+    left: 50%;
+    bottom: 0px ;
+    transition: 0.3s ease-out ;
+}
+
+.navbar ul li a:hover:after{
+    width: 100%;
+    left: 0%;
+    margin-top: 1px;
+}
+
+.partie2{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    height: 200px;
+    width: 88%;
+    margin: 20px 20px;
+    padding: 20px 0px;
+}
+
+.partie2  h1{
+    font-size: 70px;
+    color: #ffffff;
+    margin-left: 30px;
+    text-shadow: 2px 2px rgba(22, 120, 183, 1);
+    width: 500px;
+}
+.partie2 img{
+    cursor: pointer;
+}
+
+.p2 p{
+    margin-top: 10px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px rgba(220, 159, 195, 1);
+}
+
+span{
+    opacity: 0;
+    transition: all 0.4s ease ;
+}
+span.fade{
+    opacity: 1;
+}
+
+
+
+.footer ul{
+    position: relative;
+    display: flex;
+    z-index: 2;
+
+}
+
+.footer ul{
+    position: relative;
+    list-style: none;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.footer ul li a{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    border-radius :10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border: 1px solid rgba(255,255,255,0.4);
+    text-decoration: none;
+    color: #FFFFFF;
+    border-right: 1px solid(255,255,255,0.2);
+    border-bottom: 1px solid(255,255,255,0.2);
+    box-shadow: 0.5px 40px rgba(0,0,0,0.1);
+    backdrop-filter: blur(2px);
+    transition: 0.5s;
+}
+.footer ul li a:hover{
+    transform: translateY(-20px);
+}
